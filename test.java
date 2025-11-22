@@ -18,7 +18,7 @@ public class test
         System.out.println( "My first number is:"+ firstnum);
         System.out.println( "Enter second number");
         int secnum= input.nextInt() ;
-        System.out.println( "My second number is:" +secnum)
+        System.out.println( "My second number is:" +secnum);
         int sum= firstnum+secnum;
         System.out.println( "The sum is:" +sum);
         
