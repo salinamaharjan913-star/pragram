@@ -9,25 +9,46 @@ import java.util.*;
 public class Q7aushadipasal
 {
     public static void main(String[] args) {
-        String medicine1= "name:paracetamol1, Qty:25, Price:50\n";
-        String medicine2= "name:paracetamol2, Qty:30, Price:60\n";
-        String medicine3= "name:paracetamol3, Qty:75, Price:100 \n";
+        String medicine1= "Paracetamol";
+        int medicineQty1=20;
+        double price1= 10;
         
-        System.out.println("welcome");
-        Scanner x =new Scanner (System.in);
-        int alpha = x.nextInt();
-        if (alpha==1){
-        System.out.println(medicine1);
-    }
-        else if (alpha==2){
-    
-        System.out.println(medicine2);
-    }
-        else if  (alpha==3){
-        System.out.println(medicine3);
-    }else{
-    System.out.println("medicine3");
-    }
+        String medicine2= "Flexon";
+        int medicineQty2=40;
+        double price2= 100;
+        
+        String medicine3= "Arsil";
+        int medicineQty3=50;
+        double price3= 60;
+        
+        System.out.println("------------------------");
+        System.out.println("WELCOME TO AUSADHI PASAL");
+        System.out.println("------------------------");
+        System.out.println("S.No. Medicine | Qty | Price ");
+        System.out.println("medicine name: " +medicine1);
+        System.out.println("Qty: " +medicineQty1);
+        System.out.println("price: " +price1);
+        System.out.println("medicine name: " +medicine2);
+        System.out.println("Qty: " +medicineQty2);
+        System.out.println("price: " +price2);
+        System.out.println("medicine name: " +medicine3);
+        System.out.println("Qty: " +medicineQty3);
+        System.out.println("price: " +price3);
+        
+        
     }
     
 }
+        
+        
+        
+        // ------------------------------
+        // Ausadhi Pasal
+        // ------------------------------
+        // S.No. Medicine  | Price | Qty
+        // ------------------------------
+        //  1.  Paracetamol| 20 | 10
+        
+        
+        
+       
