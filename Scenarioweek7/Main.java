@@ -8,19 +8,19 @@ public class Main
     public static void main (String[]args)
     {
     
-        BankAccount Customer1 = new BankAccount(0001, "shreya", 180000);
+        BankAccount Customer1 = new BankAccount(0011, "shreya", 200000);
         
         Customer1.displayDetails();
-        Customer1.depositamt(1000);
-        Customer1.withdrawl(-200);
+        Customer1.depositamt(11000);
+        Customer1.withdrawl(-500);
         Customer1.currentbalance();
          
         System.out.println();
         
-        BankAccount Customer2 = new BankAccount(0011, "sara", 8000);
+        BankAccount Customer2 = new BankAccount(0012, "sara", 5000);
         
         Customer2.displayDetails();
-        Customer2.depositamt(40000);
+        Customer2.depositamt(50000);
         Customer2.withdrawl(40000);
         Customer2.currentbalance();
     
