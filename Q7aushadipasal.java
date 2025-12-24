@@ -10,31 +10,26 @@ public class Q7aushadipasal
 {
     public static void main(String[] args) {
         String medicine1= "Paracetamol";
-        int medicineQty1=20;
-        double price1= 10;
+        int medicine1Qty=20;
+        double medicine1price= 10;
         
         String medicine2= "Flexon";
-        int medicineQty2=40;
-        double price2= 100;
+        int medicine2Qty=40;
+        double medicine2price= 100;
         
         String medicine3= "Arsil";
-        int medicineQty3=50;
-        double price3= 60;
+        int medicine3Qty=50;
+        double medicine3price= 60;
         
         System.out.println("------------------------");
         System.out.println("WELCOME TO AUSADHI PASAL");
         System.out.println("------------------------");
         System.out.println("S.No. Medicine | Qty | Price ");
-        System.out.println("medicine name: " +medicine1);
-        System.out.println("Qty: " +medicineQty1);
-        System.out.println("price: " +price1);
-        System.out.println("medicine name: " +medicine2);
-        System.out.println("Qty: " +medicineQty2);
-        System.out.println("price: " +price2);
-        System.out.println("medicine name: " +medicine3);
-        System.out.println("Qty: " +medicineQty3);
-        System.out.println("price: " +price3);
-        
+        System.out.println("--------------------------");
+        System.out.println(medicine1 + "|" +  medicine1Qty + " | " + medicine1price + "|" );
+        System.out.println(medicine2 + "|" +  medicine2Qty + " | " + medicine2price + "|" );
+        System.out.println(medicine3 + "|" +  medicine3Qty + " | " + medicine3price + "|" );
+           
         
     }
     
