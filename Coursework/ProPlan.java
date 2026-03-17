@@ -23,7 +23,27 @@ public class ProPlan extends AIModel
         return this.teamSlots;
     }
     
+      public String addTeamMember(String name) {
+        if (teamSlots > 0) {
+            teamSlots= teamSlots-1;
+            return "Team member " + name + " added. Remaining slots: " + teamSlots;
+        } else {
+            return "No available slots remaining.";
+        }
     }
+
+    public String removeTeamMember(String name) {
+        teamSlots= teamSlots+1;
+        return "Team member " + name + " removed. team slots: " + teamSlots;
+    }
+
+    @Override
+    public String display() {
+        return super.display() +
+                "Available Team Slots: " +teamSlots;
+    }
+    
+}
 
     
 

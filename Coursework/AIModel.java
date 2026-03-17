@@ -9,18 +9,19 @@ package Coursework;
  */
 public class AIModel
 {
-        private String modelName;
-    private double price; //in NPR per 1 Lakh tokens
+        private String modelName;   //attributes
+    private double price; //in NPR per 1 Lakh tokens    
     private int parameterCount;//in billions
     private String contextWindow;//64 tokens
 
-    public AIModel(String modelName, double price, int parameterCount, String contextWindow) {
+    public AIModel(String modelName, double price, int parameterCount, String contextWindow) { //constructor
         this.modelName = modelName;
         this.price = price; 
         this.parameterCount = parameterCount; 
         this.contextWindow = contextWindow;
     }
 
+    //Getter Method
     public String getModelName() {
         return this.modelName;
     }
@@ -37,8 +38,8 @@ public class AIModel
         return this.contextWindow;
     }
 
-    @Override
-    public String toString() {
+    
+    public String display() {  //display method
         return "modelName: "+ modelName +
                "Price: "+price + 
                "ParameterCount: "+ parameterCount +
